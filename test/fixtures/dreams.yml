@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dream_datetime: 2021-05-03 21:09:51
+  journal: MyString
+  image_url: MyString
+  category_id: 1
+
+two:
+  dream_datetime: 2021-05-03 21:09:51
+  journal: MyString
+  image_url: MyString
+  category_id: 1
