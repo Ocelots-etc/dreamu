@@ -17,6 +17,8 @@ gem 'puma', '~> 5.0'
 # gem 'bcrypt', '~> 3.1.7'
 # gem 'sqlite3', '~> 1.4'
 
+gem 'jsonapi-serializer'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 

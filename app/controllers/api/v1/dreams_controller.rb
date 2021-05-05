@@ -2,7 +2,8 @@ class Api::V1::DreamsController < ApplicationController
 
   def index
     dreams = Dream.all
-    render json: dreams
+    # render json: dreams
+    render json: DreamSerializer.new(dreams)
   end
  
   def create
