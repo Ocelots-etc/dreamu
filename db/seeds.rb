@@ -6,6 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Category.destroy_all
+Dream.destroy_all
+
 love = Category.create(name: "Love")
 nightmare = Category.create(name: "Nightmare")
 nature = Category.create(name: "Nature")
