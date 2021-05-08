@@ -8,10 +8,11 @@
 
 Category.destroy_all
 Dream.destroy_all
+# this is here because when we reseed we destroy the old info
 
 love = Category.create(name: "Love")
 nightmare = Category.create(name: "Nightmare")
 nature = Category.create(name: "Nature")
 
-Dream.create(dream_datetime: "", journal: "I found myself at my favorite coffee shop on a nice sunny afternoon. Then suddenly the ground opened up and I was in a hole staring face to face with my crush. He said, 'Our hearts hold hands'. I found myself dizzy and then woke up.", image_url: "https://www.flickr.com/photos/192933031@N02/?", category_id: love.id)
+Dream.create(dream_datetime: "", journal: "I found myself at my favorite coffee shop on a nice sunny afternoon. Then suddenly the ground opened up and I was in a hole staring face to face with my crush. He said, 'Our hearts hold hands'. I found myself dizzy and then woke up.", image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png", category_id: love.id)
 
