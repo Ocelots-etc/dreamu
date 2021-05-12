@@ -16,3 +16,5 @@ nature = Category.create(name: "Nature")
 
 Dream.create(dream_datetime: "", journal: "I found myself at my favorite coffee shop on a nice sunny afternoon. Then suddenly the ground opened up and I was in a hole staring face to face with my crush. He said, 'Our hearts hold hands'. I found myself dizzy and then woke up.", image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png", category_id: love.id)
 
+# Dream.create(dream_datetime: "", journal: "I found myself at my favorite coffee shop on a nice sunny afternoon. Then suddenly the ground opened up and I was in a hole staring face to face with my crush. He said, 'Our hearts hold hands'. I found myself dizzy and then woke up.", image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png", category_id: love.id)
+
